@@ -16,11 +16,6 @@ class PlagiarismChecker:
     A class to check for plagiarism between text documents using TF-IDF and cosine similarity.
     """
     
-    def __init__(self):
-        """Initialize the PlagiarismChecker."""
-        self.documents = []
-        self.tf_idf_vectors = []
-    
     @staticmethod
     def preprocess_text(text: str) -> List[str]:
         """
