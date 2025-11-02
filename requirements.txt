@@ -1,0 +1,6 @@
+# Python Plagiarism Checker Requirements
+# This tool uses only Python standard library
+# No external dependencies required for core functionality
+
+# Development and testing dependencies (optional)
+pytest>=7.0.0
