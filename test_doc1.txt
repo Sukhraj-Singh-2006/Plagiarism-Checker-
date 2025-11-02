@@ -1,0 +1,3 @@
+This is a sample document about cats.
+It mentions cats several times and some unique phrases about feline behavior.
+Shared phrase: The quick brown fox jumps over the lazy dog.

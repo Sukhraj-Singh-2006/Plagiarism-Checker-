@@ -1,0 +1,3 @@
+This is another sample document about dogs.
+It mentions dogs and some canine behavior.
+Shared phrase: The quick brown fox jumps over the lazy dog.
