@@ -45,6 +45,12 @@ Examples:
         help='Show detailed output'
     )
     
+    parser.add_argument(
+        '--no-emoji',
+        action='store_true',
+        help='Disable emoji indicators for better accessibility'
+    )
+    
     args = parser.parse_args()
     
     # Validate threshold
@@ -98,13 +104,13 @@ Examples:
             
             # Visual indicator
             if similarity >= 0.9:
-                indicator = "🔴 HIGH"
+                indicator = "[HIGH]" if args.no_emoji else "🔴 HIGH"
             elif similarity >= 0.7:
-                indicator = "🟡 MEDIUM"
+                indicator = "[MEDIUM]" if args.no_emoji else "🟡 MEDIUM"
             elif similarity >= 0.5:
-                indicator = "🟢 LOW"
+                indicator = "[LOW]" if args.no_emoji else "🟢 LOW"
             else:
-                indicator = "⚪ MINIMAL"
+                indicator = "[MINIMAL]" if args.no_emoji else "⚪ MINIMAL"
             
             print(f"\n{indicator}")
             print(f"Document 1: {doc1}")
