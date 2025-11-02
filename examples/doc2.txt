@@ -1,0 +1,4 @@
+Python is a popular high-level programming language commonly used in web development, 
+data science, machine learning, and scientific computing. The language was developed 
+by Guido van Rossum and initially released in 1991. Python emphasizes readable code 
+through its use of indentation and whitespace.

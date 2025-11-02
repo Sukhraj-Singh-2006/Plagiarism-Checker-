@@ -1,0 +1,4 @@
+JavaScript is a versatile programming language primarily used for creating interactive 
+web pages. It was created by Brendan Eich in 1995 and has become one of the core 
+technologies of the World Wide Web, alongside HTML and CSS. JavaScript enables dynamic 
+content and user interaction on websites.

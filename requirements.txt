@@ -1,0 +1,9 @@
+# No external dependencies required - uses only Python standard library
+# The plagiarism checker is built using:
+# - re (regular expressions)
+# - math (mathematical functions)
+# - collections (Counter)
+# - typing (type hints)
+
+# For development and testing (optional)
+# pytest>=7.0.0
